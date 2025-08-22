@@ -1,0 +1,4 @@
+{
+  "/campaign/page": "app/campaign/page.js",
+  "/api/razorpay/create/route": "app/api/razorpay/create/route.js"
+}

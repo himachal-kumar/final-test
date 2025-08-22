@@ -1,0 +1,25 @@
+const express = require('express');
+const router = express.Router();
+const Donation = require('../../../src/models/donation');
+
+// Get all donations
+router.get('/', async (req, res) => {
+  try {
+    const donations = await Donation.find({});
+    res.json(donations);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Create a new donation
+router.post('/', async (req, res) => {
+  try {
+    const donation = await Donation.create(req.body);
+    res.status(201).json(donation);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+module.exports = router;

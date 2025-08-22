@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Home",
+    "campaigns": "Campaigns",
+    "donate": "Donate",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "greeting": "Hi, {username}",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "common": {
+    "appName": "NGO Fund"
+  }
+}

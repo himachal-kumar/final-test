@@ -1,0 +1,39 @@
+.adminDashboard {
+  @apply p-6 space-y-8;
+}
+
+.adminTitle {
+  @apply text-3xl font-bold;
+}
+
+.actionButtons {
+  @apply flex gap-4;
+}
+
+.tableContainer {
+  @apply bg-white p-6 rounded-2xl shadow;
+}
+
+.tableTitle {
+  @apply text-xl font-semibold mb-4;
+}
+
+.table {
+  @apply w-full table-auto border-collapse;
+}
+
+.tableHeader {
+  @apply bg-gray-100;
+}
+
+.tableHeaderCell {
+  @apply border px-4 py-2;
+}
+
+.tableRow {
+  @apply hover:bg-gray-50;
+}
+
+.tableCell {
+  @apply border px-4 py-2;
+}
